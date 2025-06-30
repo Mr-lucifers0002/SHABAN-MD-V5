@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "SHABAN-MD~rAtkRBbS#7LRVQeAeN8aISbcvRfBqaJhBNzoied31CbSPqTb4nbs",
 // add your Session Id
 AUTO_BIO: process.env.AUTO_BIO || "false", 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
@@ -20,13 +20,14 @@ WELCOME: process.env.WELCOME || "false",
 // true if want welcome and goodbye msg in groups    
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group  
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || "+",
 // add your prifix for bot
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://i.ibb.co/j9G5tmNM/shaban-md.jpg",
 // add custom menu and mention reply image url   
-BOT_NAME: process.env.BOT_NAME || "SHABAN-MD V5",
+BOT_NAME: process.env.BOT_NAME || "lucifer-MD V5",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "SHABAN-MD",
+STICKER_NAME: process.env.STICKER_NAME || "𓆩𝐌ꝛ 𝐋𝐔𝐂𝐈𝐋𝐅𝐄𝐑᭄  MO𝐑N𝐈G𝐒T𝚫𝐑 』𝕺𝖓 𝖎𝖓𝖘𝖕𝖊𝖈𝖙𝖊, 𝖔𝖓 𝖕𝖚𝖗𝖌𝖊, 𝖔𝖓 𝖌𝖆𝖗𝖉𝖊 𝖑𝖊𝖘 𝖒𝖊𝖎𝖑𝖑𝖊𝖚𝖗𝖘.
+",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -34,15 +35,15 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "923043788282",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "50932464653",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "MR-SHABAN",
+OWNER_NAME: process.env.OWNER_NAME || "𓆩𝐌ꝛ 𝐋𝐔𝐂𝐈𝐋𝐅𝐄𝐑᭄  MO𝐑N𝐈G𝐒T𝚫𝐑 』",
 // add bot owner name
-DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Mʀ Sʜᴀʙᴀɴ*",
+DESCRIPTION: process.env.DESCRIPTION || "*© comment ça va pétasse*",
 // add bot owner name    
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/tasodv.jpg",
 // add img for alive msg
-LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *SHABAN-MD*⚡",
+LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *𓆩𝐌ꝛ 𝐋𝐔𝐂𝐈𝐋𝐅𝐄𝐑᭄  MO𝐑N𝐈G𝐒T𝚫𝐑 』*⚡",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
@@ -60,7 +61,7 @@ AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
 PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
@@ -68,7 +69,7 @@ AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
-DEV: process.env.DEV || "923043788282",
+DEV: process.env.DEV || "50932464653",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "false",
 // true for anti once view
